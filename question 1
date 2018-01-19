@@ -131,7 +131,7 @@ int SLL::deleteAt(int pos)
        traverse=traverse->next;
    }
   }
-  else//If pos exceeds size
+  else
   {
    cout<<"\n \n Linked List does not have that many elements";
    return 0;
